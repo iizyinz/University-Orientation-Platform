@@ -1,0 +1,57 @@
+:root {
+  /* Primary Colors */
+  --primary: #1A5CFF;
+  --primary-deep: #0033CC;
+  --primary-light: #4D8AFF;
+
+  /* Secondary Colors */
+  --secondary-orange: #FF7A1A;
+  --secondary-gold: #FFAA4C;
+  --secondary-green: #00C9A7;
+
+  /* Neutral Colors */
+  --white: #FFFFFF;
+  --gray-100: #F5F7FA;
+  --gray-200: #E8ECF1;
+  --gray-400: #8C95A6;
+  --gray-600: #3D465C;
+  --gray-900: #1A1D26;
+
+  /* Semantic Colors */
+  --success: #00C9A7;
+  --warning: #FFAA4C;
+  --danger: #FF4D6A;
+  --info: #4D8AFF;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--gray-600);
+  background: var(--white);
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
